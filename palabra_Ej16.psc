@@ -1,6 +1,15 @@
 
 /// 16. Copiar palabra: Escribe un programa que lea dos palabras y concatena en otra variable las dos palabras
 
+/// Entrada
+/// - Pfimero definimos las variables, palabra1 y palabra2 son varibles del tipo ingresadas y resul es tipo calculable
+
+/// Proceso 
+/// - Pedir al usuario que ingrese las dos palabras.
+
+/// Salida
+/// - El resultados es la suma de las dos palabras, es decir que ahora forman una sola oración
+
 Algoritmo palabra_Ej16
 	
 	// Definir las variables a utilizar
