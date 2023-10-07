@@ -1,5 +1,5 @@
 
-// 16. Copiar palabra: Escribe un programa que lea dos palabras y concatena en otra variable las dos palabras
+/// 16. Copiar palabra: Escribe un programa que lea dos palabras y concatena en otra variable las dos palabras
 
 Algoritmo palabra_Ej16
 	
@@ -15,10 +15,10 @@ Algoritmo palabra_Ej16
     Escribir Sin Saltar "Ingrese la segunda palabra: "
     Leer palabra2
 	
-	// Fórmula para que las palabras se unan en una sola oracion. Agregando ñas comillas ("") para que las palabras ingresadas no se impriman unidas, sino con un espacio 
+	// FÃ³rmula para que las palabras se unan en una sola oracion. Agregando Ã±as comillas ("") para que las palabras ingresadas no se impriman unidas, sino con un espacio 
 	
 	resul <- palabra1 + " " + palabra2
 
-    Escribir "La concatenación de las palabras es: ", resul
+    Escribir "La concatenaciÃ³n de las palabras es: ", resul
 	
 FinAlgoritmo
