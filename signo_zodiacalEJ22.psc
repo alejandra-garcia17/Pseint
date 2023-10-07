@@ -1,6 +1,27 @@
 
-// 22. Signo zodiacal: Pide al usuario que ingrese su mes y d韆 de nacimiento, luego determina su signo zodiacal. Puedes usar una serie de declaraciones if para
-// comparar las fechas ingresadas con las fechas l韒ite de cada signo zodiacal.
+/// 22. Signo zodiacal: Pide al usuario que ingrese su mes y d铆a de nacimiento, luego determina su signo zodiacal. Puedes usar una serie de declaraciones if para
+// comparar las fechas ingresadas con las fechas l铆mite de cada signo zodiacal.
+
+/// Entrada
+/// - Definir las variables, mes y dia son del tipo ingresables, pero mes debe estar en el rango de 1 a 12; y dia en el rango de 1 a 31
+
+/// Proceso 
+/// - Pedir al usuario que ingrese el mes y el dia
+/// - Usar la condicional SI...ENTONCES...SINO...FINSI para que de acuerod al mes y al dia sepamos cual es su signo zodiacal
+
+/// Salida
+/// - Si mes es 3 贸 4 y el dia esta entre 19 y 21 entonces su signo es Aries
+/// - sI mes es 4 贸 5 y el dia es igaul a 20 entonces su signo es Tauro 
+/// - Si mes es 5 贸 6 y dia esta entre 20 y 21 entonces su signo es G茅minis
+/// - Si mes es 6 贸 7 y dia esta entre 21 y 22 entonces su signo es Cancer
+/// - Si mes es 7 贸 8 y dia esta entre 22 y 23 entonces su signo es Leo
+/// - Si mes es 8 贸 9 y dia esta entre 22 y 23 entonces su signo es Virgo
+/// - Si mes es 9 贸 10 y dia esta entre 22 y 23 entonces su signo es Libra
+/// - Si mes es 10 贸 11 y dia esta entre 21 y 23 entonces su signo es Escorpio
+/// - Si mes es 11 贸 12 y dia esta entre 21 y 22 entonces su signo es Sagitario
+/// - Si mes es 12 贸 1 y dia esta entre 19 y 22 entonces su signo es Capicornio
+/// - Si mes es 1 贸 2 y dia esta entre 18 y 20 entonces su signo es Acuario
+/// - Si mes es 2 贸 3 y dia esta entre 19 y 20 entonces su signo es Piscis
 
 Algoritmo signo_zodiacalEJ22
 	
@@ -13,7 +34,7 @@ Algoritmo signo_zodiacalEJ22
     Escribir "Ingrese su mes de nacimiento (1-12):"
     Leer mes
 	
-    Escribir "Ingrese su d韆 de nacimiento (1-31):"
+    Escribir "Ingrese su d铆a de nacimiento (1-31):"
     Leer dia
 	
 	// Usar la condicional "SI...ENTONCES...SINO...FIN SI" para que segun el mes y el dia ingresados se pueda saber su signo zodiacal
@@ -25,10 +46,10 @@ Algoritmo signo_zodiacalEJ22
 			Escribir "Tu signo zodiacal es Tauro."
 	FinSi
 	Si (mes = 5 Y dia >= 21) O (mes = 6 Y dia <= 20) Entonces
-		Escribir "Tu signo zodiacal es G閙inis."
+		Escribir "Tu signo zodiacal es G茅minis."
 	FinSi
 	Si (mes = 6 Y dia >= 21) O (mes = 7 Y dia <= 22) Entonces
-		Escribir "Tu signo zodiacal es C醤cer."
+		Escribir "Tu signo zodiacal es C谩ncer."
 	FinSi
 	Si (mes = 7 Y dia >= 23) O (mes = 8 Y dia <= 22) Entonces
 		Escribir "Tu signo zodiacal es Leo."
