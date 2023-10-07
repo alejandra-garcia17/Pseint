@@ -1,5 +1,15 @@
 
-// 18. Edad m�nima para votar: Pregunta la edad del usuario y verifica si es elegible para votar (18 a�os o m�s).
+/// 18. Edad mínima para votar: Pregunta la edad del usuario y verifica si es elegible para votar (18 años o más).
+
+/// Entrada
+/// - Definir las variables, en este caso solo edad que es del tipo ingresado
+
+/// Proceso 
+/// - Usar la condicional SI...ENTONCES...SINO...FINSI, para que cuando edad sea mayor que 18 la persona pueda votar, sino, todavia no puede participar en las elecciones
+
+
+/// Salida
+/// - El resultado será que si el usuario tiene más de 18 puede votar, si su edad es menor que 18 entonces no puede votar
 
 Algoritmo edad_votarEj18
 	
