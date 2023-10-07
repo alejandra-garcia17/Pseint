@@ -13,7 +13,7 @@
 /// * Si YEAR MOD 400 = 0: Esto verifica si el año es divisible por 400. Si un año es divisible por 400, se considera bisiesto incluso si es divisible por 100.
 
 /// Salida: 
-/// Si se cumple cualquiera de estas tres condiciones YEAR MOD 4 = 0 Y YEAR MOD 100 <> 0) O (YEAR MOD 400 = 0) Entonces el año es bisiesto
+/// Usar la condicional SI...ENTONCES...SINO...FINSI, ya que si se cumple cualquiera de estas tres condiciones YEAR MOD 4 = 0 Y YEAR MOD 100 <> 0) O (YEAR MOD 400 = 0) Entonces el año es bisiesto
 /// Sino el año no es bisiesto
 
 Algoritmo bisiesto_o_noEJ21
