@@ -1,5 +1,16 @@
 
-// 20. Número positivo, negativo o cero: Pide al usuario que ingrese un número y muestra si es positivo, negativo o cero.
+/// 20. NÃºmero positivo, negativo o cero: Pide al usuario que ingrese un nÃºmero y muestra si es positivo, negativo o cero.
+
+/// Entrada
+/// - Primero definimos las variables, en este caso solo "nun" que es una vaiable del tipo ingresado
+
+/// Proceso 
+/// - Usar la condicional SI...ENTONCES...SINO...FINSI para que cuando num sea mayor que 0 el resultado sea que el nÃºmero ingresado es positivo
+/// - Si num es menor que 0 entonces el nÃºmero es negativo
+/// - Y si num es 0 la respuesta saldria que el nÃºmero es cer0
+
+/// Salida:
+/// - SDependiedo del nÃºmero y de que si se cumple la condicional entonces la rrspuesta serÃ­a que num es positivo, negativo o cero
 
 Algoritmo numero_pncEJ20
 	
@@ -7,19 +18,19 @@ Algoritmo numero_pncEJ20
 	
 	Definir num Como Real
 	
-	// Pedir al usuario que ingrese un número
+	// Pedir al usuario que ingrese un nÃºmero
 	
-    Escribir Sin Saltar "Ingrese un número: "
+    Escribir Sin Saltar "Ingrese un nÃºmero: "
     Leer num
 	
-	// Usar la condicional "SI...ENTONCES...SINO...FIN SI" para que dependiedo del número ingresado el programa diga si es positivo, negativo o cero
+	// Usar la condicional "SI...ENTONCES...SINO...FIN SI" para que dependiedo del nÃºmero ingresado el programa diga si es positivo, negativo o cero
 	
     Si num > 0 Entonces
-        Escribir "El número es positivo."
+        Escribir "El nÃºmero es positivo."
     Sino Si num < 0 Entonces
-			Escribir "El número es negativo."
+			Escribir "El nÃºmero es negativo."
 		Sino
-			Escribir "El número es cero."
+			Escribir "El nÃºmero es cero."
 		Finsi	
 	FinSi
 	
