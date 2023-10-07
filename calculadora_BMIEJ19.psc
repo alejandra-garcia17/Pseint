@@ -1,6 +1,20 @@
 
-// 19. Calculadora de BMI: Crea un programa que calcule el Ìndice de masa corporal (BMI) a partir del peso y la altura del usuario, y luego indique si est· en una
-// categorÌa de peso saludable.
+// 19. Calculadora de BMI: Crea un programa que calcule el √≠ndice de masa corporal (BMI) a partir del peso y la altura del usuario, y luego indique si est√° en una
+// categor√≠a de peso saludable.
+
+/// Entrada:
+/// - Primero definimos las variables, peso y altura son del tipo ingresado; y BMI y del tipo calculable
+
+/// Proceso 
+/// - Pedir al usuario que ingrese su peso y altura
+/// - Usar la sigueinte formula para calcular el BMI = BMI <- peso / (altura ^ 2)
+/// - Con el resultadp de la f√≥rmula usar la condicional SI...ENTONCES...SINO...FINSI, para que de acuerod al resultado de BMI podamos saber si esta bien o mal de peso
+
+/// Salida
+/// - Si BMI es menor 18,4 entonces el usuario este demasiado delgado
+/// - Si BMI esta entre 18.5 y 24.9 entonces el usiario tiene un peso saludable
+/// - Si BMI esta entre 25 y 29.5 entonces el usuario tiene sobrepeso
+/// - si BMI es mayor a 29.5 dntonces el usuario tiene obesidad
 
 Algoritmo calculadora_BMIEJ19
 	
@@ -16,21 +30,21 @@ Algoritmo calculadora_BMIEJ19
 	Escribir Sin Saltar "Ingrese su altura en metros: "
 	Leer altura 
 	
-	// Calcular el BMI (peso / altura^2) - fÛrmula para encontrar el BMI
+	// Calcular el BMI (peso / altura^2) - f√≥rmula para encontrar el BMI
     BMI <- peso / (altura * altura)
 	
-	Escribir "Su Ìndice de masa corporal (BMI) es:", BMI
+	Escribir "Su √≠ndice de masa corporal (BMI) es:", BMI
 	
-	// Usar la condicional "SI...ENTONCES...SINO...FIN SI para que cuando de el resultado de la fÛrmula, determine en que categoria se encuentra el usuario
+	// Usar la condicional "SI...ENTONCES...SINO...FIN SI para que cuando de el resultado de la f√≥rmula, determine en que categoria se encuentra el usuario
 	
 	Si BMI < 18.5 Entonces
-        Escribir "Est· en la categorÌa de bajo peso."
+        Escribir "Est√° en la categor√≠a de bajo peso."
     Sino Si BMI >= 18.5 Y BMI < 24.9 Entonces
-			Escribir "Est· en la categorÌa de peso normal (saludable)."
+			Escribir "Est√° en la categor√≠a de peso normal (saludable)."
 		Sino Si BMI >= 25 Y BMI < 29.9 Entonces
-				Escribir "Est· en la categorÌa de sobrepeso."
+				Escribir "Est√° en la categor√≠a de sobrepeso."
 			Sino
-				Escribir "Est· en la categorÌa de obesidad."
+				Escribir "Est√° en la categor√≠a de obesidad."
 			Finsi	
 	    Finsi		
 	FinSi
